@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #CDCBC7;
+    color: #28221F;
+}
+
+em {
+    color: #7F6A51;
+    font-style: italic;
+}
+
+p {
+    color: #614E41;
+    margin: 5px 0;
+}
+
+h1, h2, h3 {
+    color: #28221F;
+    margin: 10px 0;
+}
+
+header {
+    height: 10vh;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #E4E3DD;
+    font-size: 2.5rem;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#contacto img{
+    height:200px;
+}
+
+#presentacion, #contacto, #experiencialaboral, #educacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #E4E3DD;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contacto, #educacion {
+    background-color: #CDCBC7;
+}
+
+#divfotodepresentacion, #divfotodecontacto, #divfotodeexperiencialaboral, #divfotodeeducacion {
+    flex: 1;
+    text-align: center;
+    max-width: 40%;
+}
+
+#fotodepresentacion, #fotodecontacto, #fotodeexperiencialaboral, #fotodeeducacion {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#textodepresentacion, #textodecontacto, #textodeexperiencialaboral, #textodeeducacion {
+    flex: 2;
+    padding: 0 20px;
+    max-width: 60%;
+}
+
+#textodepresentacion h2, #textodecontacto h2, #textodeexperiencialaboral h2, #textodeeducacion h2 {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    color: #7F6A51;
+}
+
+a {
+    color: #614E41;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #presentacion, #contacto, #experiencialaboral, #educacion {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #divfotodepresentacion, #divfotodecontacto, #divfotodeexperiencialaboral, #divfotodeeducacion {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #textodepresentacion, #textodecontacto, #textodeexperiencialaboral, #textodeeducacion {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    #banner {
+        font-size: 2rem;
+        padding: 10px;
+    }
+}

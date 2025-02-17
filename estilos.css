@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   em {
+    color: #7F6A51;
+   }
+   p {
+    color: #614E41;
+   }
+   h2 {
+    color: #28221F;
+   }
+}
+
+header {    
+    height: 10vh;
+    background-color: #EEEEEE;
+   
+ }
+
+#banner {
+   height: 50vh;
+   text-align: center;
+   padding-top: 10vh;
+   box-sizing: border-box;
+   color: #000000;
+   margin: 0%;
+   font-size: xx-large;
+}
+
+#presentacion {
+  background-color: #E4E3DD;
+    
+ height: 100%;
+ block-size: border-box;
+    
+  
+   
+}
+/*#divfotodepresentacion {
+    height: 70vh;
+    width: 30% ;
+   display: inline-block;
+   padding: 5vh 5vw;
+   box-sizing: border-box;
+   text-align: center;
+}*/
+#divfotodepresentacion{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 15px;
+    float: left;
+    margin-left: 15px;
+    
+}
+#fotodepresentacion{
+    height: 65vh;
+    width: 47vh;
+    display: inline-block
+}
+#textodepresentacion {
+    height: 100%;
+    width: 47%;
+    display: inline-block;
+}
+    
+    #contacto {
+         height: 100%;
+    block-size: border-box;
+    } 
+    #divfotodecontacto {
+        
+        height: 100vh;
+    width: 50vh ;
+   display: inline-block;
+   padding: 5vh 5vw;
+   box-sizing: border-box;
+   text-align: center;
+}
+	 
+        #fotodecontacto{
+        height: 65vh;
+        width: 40vh;
+        display: inline-block;
+    }   
+    
+    #textodecontacto {
+        height: 100%;
+    width: 70%;
+    display: inline-block;
+}
+
+#experiencialaboral {
+    background-color: #E4E3DD;
+    
+    height: 100%;
+    block-size: border-box;
+}
+#divfotodeexperiencialaboral {
+    height: 70vh;
+    width: 47% ;
+   display: inline-block;
+   padding: 5vh 5vw;
+   box-sizing: border-box;
+   text-align: center;
+}
+#fotodeexperiencialaboral{
+    height: 70vh;
+    width: 67%;
+    display: inline-block
+    
+}
+#textodeexperiencialaboral {
+    height: 100%;
+    width: 47%;
+    display: inline-block;
+}
+
+#educacion {
+    background-color: #E4E3DD;
+    
+    height: 100%;
+    block-size: border-box;
+}
+#divfotodeeducacion {
+    height: 70vh;
+    width: 47% ;
+   display: inline-block;
+   padding: 5vh 5vw;
+   box-sizing: border-box;
+   text-align: center;
+}
+#fotodeeducacion{
+    height: 70vh;
+    width: 67%;
+    display: inline-block
+    
+}
+#textodeeducacion {
+    height: 100%;
+    width: 47%; 
+    display: inline-block;
+}
